@@ -27,7 +27,7 @@ This GitHub contains a set of tools that can help you perform a radiation electr
   </style>
 </head>
 <body>
-  <img src="radhelper_overview_light.drawio.svg" alt="Light Mode Image" title="Light Mode Image" class="light-mode">
-  <img src="radhelper_overview_light.drawio.svg" alt="Dark Mode Image" title="Dark Mode Image" class="dark-mode">
+  <img src="https://github.com/radhelper/.github/blob/main/profile/radhelper_overview_light.drawio.svg" alt="Light Mode Image" title="Light Mode Image" class="light-mode">
+  <img src=https://github.com/radhelper/.github/blob/main/profile/radhelper_overview_dark.drawio.svg" alt="Dark Mode Image" title="Dark Mode Image" class="dark-mode">
 </body>
 </html>
