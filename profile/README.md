@@ -7,7 +7,7 @@ This GitHub contains a set of tools that can help you perform a radiation electr
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <style>
+  <style  type="text/css">
     .light-mode {
       display: none;
     }
@@ -23,6 +23,18 @@ This GitHub contains a set of tools that can help you perform a radiation electr
         display: none;
       }
     }
+    @media (prefers-color-scheme: dark)
+    {
+        svg {
+            filter: invert(93%) hue-rotate(180deg);
+            background-color: transparent !important;
+        }
+        image {
+            filter: invert(100%) hue-rotate(180deg) saturate(1.25);
+        }
+    }
+
+
   </style>
 </head>
 <body>
