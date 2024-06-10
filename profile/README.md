@@ -1,7 +1,24 @@
-## Radiation setup helpers
+## Radiation Setup Helpers
 
-This GitHub contains a set of tools that can help you perform a radiation electronic device test.
+This GitHub repository contains tools designed to assist you in performing radiation tests on electronic devices.
 
+### General Usage
+
+The scripts provided are intended to be used together. The diagram below illustrates how the libraries are designed to
+function in tandem.
+
+A **main server** will be located outside the beam room, connected via a local network. This server will run
+the [radiation-setup](https://github.com/radhelper/radiation-setup) scripts. These scripts control the operations of
+host devices inside the beam room and act as a watchdog for the applications and operating systems within the beam room.
+In case of a functional interruption of a host device, the **main server** can use Ethernet-controlled power switches to
+perform a hard power reboot of the host devices.
+
+In most setups, the **host devices** inside the beam room are positioned outside the main **beam line**. These host
+devices will run code built/linked with [libLogHelper](https://github.com/radhelper/libLogHelper). This library
+facilitates communication with the **main server** by sending heartbeat messages. The **Devices Under Test (DUTs)** are
+the devices being tested. Any events involving the DUTs should be logged either on the host devices, on the server, or
+both.
 
 ![RadHelper tools usage](https://github.com/radhelper/.github/blob/main/profile/radhelper_overview_dark.jpg#gh-dark-mode-only)
 ![RadHelper tools usage](https://github.com/radhelper/.github/blob/main/profile/radhelper_overview_light.jpg#gh-light-mode-only)
+
