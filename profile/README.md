@@ -7,8 +7,8 @@ function in tandem.
 A **main server** will be located outside the beam room, connected via a local network. This server will run
 the [radiation-setup](https://github.com/radhelper/radiation-setup) scripts. These scripts control the operations of
 host devices inside the beam room and act as a watchdog for the applications and operating systems within the beam room.
-In case of a functional interruption of a host device, the **main server** can use Ethernet-controlled power switches to
-perform a hard power reboot of the host devices.
+In case of a functional interruption of a host device, the **main server** will use Ethernet-controlled power switches
+to perform a hard power cycle of the host devices.
 
 In most setups, the **host devices** inside the beam room are positioned outside the main **beam line**. These host
 devices will run code built/linked with [libLogHelper](https://github.com/radhelper/libLogHelper). This library
