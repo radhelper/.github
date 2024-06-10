@@ -12,7 +12,7 @@ to perform a hard power cycle of the host devices.
 
 In most setups, the **host devices** inside the beam room are positioned outside the main **beam line**. 
 These host devices will run code built/linked with [libLogHelper](https://github.com/radhelper/libLogHelper). 
-This library do the communication with the **main server** by sending heartbeat messages. 
+This library does the communication with the **main server** by sending heartbeat messages. 
 The **Devices Under Test (DUTs)** are the devices being tested. 
 Any events involving the DUTs should be logged either on the host devices, on the server, or both.
 
