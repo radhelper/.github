@@ -1,9 +1,6 @@
 ## Radiation Setup Helpers
 
 This GitHub repository contains tools designed to assist you in performing radiation tests on electronic devices.
-
-### General Usage
-
 The scripts provided are intended to be used together. The diagram below illustrates how the libraries are designed to
 function in tandem.
 
