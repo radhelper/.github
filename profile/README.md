@@ -22,3 +22,7 @@ Any events involving the DUTs should be logged either on the host devices, on th
 ![RadHelper tools usage](https://github.com/radhelper/.github/blob/main/profile/radhelper_overview_dark.jpg#gh-dark-mode-only)
 ![RadHelper tools usage](https://github.com/radhelper/.github/blob/main/profile/radhelper_overview_light.jpg#gh-light-mode-only)
 
+## Participating institutions
+
+![Institutions](https://github.com/radhelper/.github/blob/main/profile/inst.jpg)
+
